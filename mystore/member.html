@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>member</title>
+    <link rel="stylesheet" type="text/css" href="assets/cc.css">
+    <link rel="stylesheet" type="text/css" href="assets/cc_member.css">
+    <link rel="stylesheet" type="text/css" href="assets/cc_good.css">
+</head>
+
+<body>
+    <div class="meun">
+        <img class="hehe" src="images/hehe.png">
+        <div class="right">
+            <div class="top">
+                <input class="search-box" type="text">
+                <input type="submit" value="搜尋" class="search-btn">
+                <div class="enter"><a href="enter.html">
+                        <h2 class="enter01">登入/註冊<h2></h2>
+                    </a></div>
+                <a href="cart.html"><img class="cart" src="images/shoppingcart.png"></a>
+            </div>
+            <ul class="navigation">
+                <li><a href="hehe.html">首頁</a>
+                <li><a href="activity.html">活動</a>
+                    <ul>
+                        <li><a href="activity.html">聖誕節歡樂送</a></li>
+                        <li><a href="activity.html#2">免運倒數</a></li>
+                        <li><a href="activity.html#3">支持環保</a></li>
+                        <li><a href="activity.html#4">手作教室</a></li>
+                    </ul>
+                </li>
+                <li><a href="goods.html">商品</a>
+                    <ul>
+                        <li><a href="goods.html">服飾</a></li>
+                        <li><a href="goods.html#2">飾品</a></li>
+                    </ul>
+                </li>
+                <li><a href="member.html">會員專區</a></li>
+                <li><a href="#">關於我們</a>
+                    <ul>
+                        <li><a href="team.html">組員介紹</a></li>
+                        <li><a href="mailto:pauline687@gmail.com">聯絡我們</a></li>
+                    </ul>
+                </li>
+                <li><a href="help.html">幫助</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="mem01">
+        <div class="mem02">
+            <h2 class="mem03">會員基本資料</h2>
+            <div class="mm">
+                <div class="mm01">
+                    <img src="images/head.png" class="m_po">
+                </div>
+                <div class="mm02">
+                    <div class="mm03">
+                        <div class="mm04">姓名：
+                            <input type="text" class="ff">
+                        </div>
+                    </div>
+                    <div class="mm03">
+                        <div class="mm04">性別：
+                            <input type="radio" name="bg" value="girl" class="rr">女
+                            <input type="radio" name="bg" value="boy" class="rr">男
+                        </div>
+                    </div>
+                    <div class="mm03">
+                        <div class="mm04">生日：
+                            <input type="date" class="ff">
+                        </div>
+                    </div>
+                    <div class="mm03">
+                        <div class="mm04">電話：
+                            <input type="text" class="ff">
+                        </div>
+                    </div>
+                    <div class="mm03">
+                        <div class="mm04">地址：
+                            <input type="text" class="ff">
+                        </div>
+                    </div>
+                    <div class="mm03">
+                        <div class="mm04">信箱：
+                            <input type="email" class="ff" name="mail" onKeyup="mail()" onblur="mail();">
+                        </div>
+                    </div>
+                    <div class="mm03">
+                        <div class="mm04">密碼：
+                            <input type="password" class="ff">
+                        </div>
+                    </div>
+                    <div class="mm_but">
+                        <input type="submit" value="確認修改資料" class="mm_but01">
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div class="mem01">
+        <div class="mem02">
+            <h2 class="mem03">購買訂單</h2>
+            <!-- 商品一大包 -->
+            <div>
+                <table class="table">
+                    <tr class="mem04">
+                        <th class="mem04-1">購買日期</th>
+                        <td class="mem04-1"></td>
+                    </tr>
+                </table>
+                <div class="pp">
+                    <div class="pp1">
+                        <table class="table01">
+
+                            <tr>
+                                <th class="mem-1">狀態</th>
+                                <td class="mem-2">已完成</td>
+                            </tr>
+                            <tr>
+                                <th class="mem-1">訂單編號</th>
+                                <td class="mem-2"><a href="order.html" class="memorder">#12345678901234567</a></td>
+                            </tr>
+                            <tr>
+                                <th class="mem-1">消費金額</th>
+                                <td class="mem-2">$730</td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="pp2">
+                        <img src="images/goods/1-1.JPG" class="po">
+                    </div>
+                </div>
+
+            </div>
+            <!-- 商品一大包結束 -->
+
+        </div>
+    </div>
+    <div class="mem01">
+        <div class="mem02">
+            <h2 class="mem03">我過去的評論</h2>
+            <!-- 評論開始 ------------------------------------>
+            <div class="my03">
+                <div class="my04">
+                    <img src="images/head.png" class="my05">
+                </div>
+                <div class="my06">
+                    <!-- 星星 -->
+                    <div class="container">
+                        <img src="images/star0.png" class="star star_good star_click" id="star1">
+                        <img src="images/star0.png" class="star star_good star_click" id="star2">
+                        <img src="images/star0.png" class="star star_good star_click" id="star3">
+                        <img src="images/star0.png" class="star star_good star_click" id="star4">
+                        <img src="images/star0.png" class="star star_good star_click" id="star5">
+                    </div>
+                    <div class="com">真是太好看了</div>
+                    <div class="my08">
+                        <!-- 留言時間 -->
+                        <div class="time">2020/12/31 12:00</div>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <!-- 評論結束 ------------------------------------>
+
+        </div>
+    </div>
+    <script>
+        function mail() {
+            for (i = 0; i < document.getElementsByName("mail")[0].value.length; i++) {
+                var c = document.getElementsByName("mail")[0].value.substr(i, 1);
+                var ts = escape(c);
+                if (ts.substring(0, 2) == "%u") {
+                    document.getElementsByName("mail")[0].value = "";
+                    alert("不能輸入中文");
+                }
+            }
+        }
+    </script>
+    <div class="ww">
+        <img src="images/5.png" class="www">
+        <img src="images/6.png" class="www">
+        <img src="images/7.png" class="www">
+    </div>
+    <footer>heheshop © 2021<br>總瀏覽次數：</footer>
+</body>
+
+</html>

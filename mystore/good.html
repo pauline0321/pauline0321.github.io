@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>good</title>
+  <link rel="stylesheet" type="text/css" href="assets/cc.css">
+  <link rel="stylesheet" type="text/css" href="assets/cc_good.css">
+  <link rel="stylesheet" type="text/css" href="assets/cc_star.css">
+  <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+    crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <div class="meun">
+    <img class="hehe" src="images/hehe.png">
+    <div class="right">
+      <div class="top">
+        <input class="search-box" type="text">
+        <input type="submit" value="搜尋" class="search-btn">
+        <div class="enter"><a href="enter.html">
+            <h2 class="enter01">登入/註冊<h2></h2>
+          </a></div>
+        <a href="cart.html"><img class="cart" src="images/shoppingcart.png"></a>
+      </div>
+      <ul class="navigation">
+        <li><a href="hehe.html">首頁</a>
+        <li><a href="activity.html">活動</a>
+          <ul>
+            <li><a href="activity.html">聖誕節歡樂送</a></li>
+            <li><a href="activity.html#2">免運倒數</a></li>
+            <li><a href="activity.html#3">支持環保</a></li>
+            <li><a href="activity.html#4">手作教室</a></li>
+          </ul>
+        </li>
+        <li><a href="goods.html">商品</a>
+          <ul>
+            <li><a href="goods.html">服飾</a></li>
+            <li><a href="goods.html#2">飾品</a></li>
+          </ul>
+        </li>
+        <li><a href="member.html">會員專區</a></li>
+        <li><a href="#">關於我們</a>
+          <ul>
+            <li><a href="team.html">組員介紹</a></li>
+            <li><a href="mailto:pauline687@gmail.com">聯絡我們</a></li>
+          </ul>
+        </li>
+        <li><a href="help.html">幫助</a></li>
+      </ul>
+    </div>
+  </div>
+  <!-- 內容 -------------------------------------------->
+  <div class="good">
+    <div class="dog">
+      <div class="dog01">
+        <div class="dog02">
+          <img src="images/goods/1-1.JPG" style="width:100%">
+        </div>
+
+        <div class="dog02">
+          <img src="images/goods/1-2.JPG" style="width:100%">
+        </div>
+
+        <div class="dog02">
+          <img src="images/goods/1-3.JPG" style="width:100%">
+        </div>
+
+        <a class="prev" onclick="plusSlides(-1)">❮</a>
+        <a class="next" onclick="plusSlides(1)">❯</a>
+
+        <div class="row">
+          <div class="column">
+            <img class="demo cursor" src="images/goods/1-1.JPG" style="width:100%" onclick="currentSlide(1)">
+          </div>
+          <div class="column">
+            <img class="demo cursor" src="images/goods/1-2.JPG" style="width:100%" onclick="currentSlide(2)">
+          </div>
+          <div class="column">
+            <img class="demo cursor" src="images/goods/1-3.JPG" style="width:100%" onclick="currentSlide(3)">
+          </div>
+
+        </div>
+      </div>
+      <!-- 商品文字 -->
+      <form class="fform">
+        <div class="text">
+          <h2 class="text01">不收邊直筒褲</h2>
+          <h3 class="text02">$650</h3>
+          <h3 class="text03">數量：</h3>
+          <select size="1" class="select">
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+          </select>
+          <h3 class="text03">剩餘庫存：</h3>
+          <input type="submit" class="b01" value="放入購物車">
+        </div>
+      </form>
+    </div>
+  </div>
+  <!-- 商品說明 -->
+  <div class="tip">
+    <div class="tip01">
+      <h2 class="tip02">商品說明</h2>
+      <div class="tip03">直筒褲的版型，簡單好搭基本款</div>
+    </div>
+  </div>
+  <!-- 我要評論 ---------------------------------------->
+  <div class="mycomment">
+    <div class="my01">
+      <h2 class="my02">我要評論</h2>
+      <div class="my03">
+        <div class="my04">
+          <img src="images/head.png" class="my05">
+        </div>
+        <div class="my06">
+          <!-- 星星 -->
+          <div class="happy">
+            <div class="rating effect">
+              <input type="radio" name="rating_stars" value="star_one" id="star_one" />
+              <label for="star_one" class="stars">One star</label>
+              <input type="radio" name="rating_stars" value="star_two" id="star_two" />
+              <label for="star_two" class="stars">Two stars</label>
+              <input type="radio" name="rating_stars" value="star_three" id="star_three" />
+              <label for="star_three" class="stars">Three stars</label>
+              <input type="radio" name="rating_stars" value="star_four" id="star_four" />
+              <label for="star_four" class="stars">Four stars</label>
+              <input type="radio" name="rating_stars" value="star_five" id="star_five" />
+              <label for="star_five" class="stars">Five stars</label>
+            </div>
+          </div>
+          <textarea class="my07"></textarea>
+          <div class="my08">
+            <!-- 留言時間 -->
+            <input type="submit" value="送出" class="go">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- 產品評論 ----------------------------------------->
+  <div class="mycomment">
+    <div class="my01">
+      <div class="mym">
+        <h2 class="my02">產品評論</h2>
+        <div class="mym01">共150評筆論</div>
+      </div>
+
+      <div class="my03">
+        <div class="my04">
+          <img src="images/head.png" class="my05">
+        </div>
+        <div class="my06">
+          <!-- 星星 -->
+          <div class="happy">
+            <div class="rating effect">
+              <input type="radio" name="rating_stars" value="star_one" id="star_one" />
+              <label for="star_one" class="stars">One star</label>
+              <input type="radio" name="rating_stars" value="star_two" id="star_two" />
+              <label for="star_two" class="stars">Two stars</label>
+              <input type="radio" name="rating_stars" value="star_three" id="star_three" />
+              <label for="star_three" class="stars">Three stars</label>
+              <input type="radio" name="rating_stars" value="star_four" id="star_four" />
+              <label for="star_four" class="stars">Four stars</label>
+              <input type="radio" name="rating_stars" value="star_five" id="star_five" />
+              <label for="star_five" class="stars">Five stars</label>
+            </div>
+          </div>
+          <div class="com">真是太好看了</div>
+          <div class="my08">
+            <!-- 留言時間 -->
+            <div class="time">2020/12/31 12:00</div>
+          </div>
+        </div>
+      </div>
+
+      <hr>
+
+      <div class="my03">
+        <div class="my04">
+          <img src="images/head.png" class="my05">
+        </div>
+        <div class="my06">
+          <!-- 星星 -->
+          <div class="happy">
+            <div class="rating effect">
+              <input type="radio" name="rating_stars" value="star_one" id="star_one" />
+              <label for="star_one" class="stars">One star</label>
+              <input type="radio" name="rating_stars" value="star_two" id="star_two" />
+              <label for="star_two" class="stars">Two stars</label>
+              <input type="radio" name="rating_stars" value="star_three" id="star_three" />
+              <label for="star_three" class="stars">Three stars</label>
+              <input type="radio" name="rating_stars" value="star_four" id="star_four" />
+              <label for="star_four" class="stars">Four stars</label>
+              <input type="radio" name="rating_stars" value="star_five" id="star_five" />
+              <label for="star_five" class="stars">Five stars</label>
+            </div>
+          </div>
+          <div class="com">真是太好看了</div>
+          <div class="my08">
+            <!-- 留言時間 -->
+            <div class="time">2020/12/31 12:00</div>
+          </div>
+        </div>
+      </div>
+      <!-- 留言頁數開始 ---------------------------------------->
+      <div class="page-icon">
+        <a href="#">1</a>
+        <a href="#">2</a>
+        <a href="#">3</a>
+      </div>
+      <!-- 留言頁數結束 ---------------------------------------->
+    </div>
+  </div>
+
+  <script>
+    // 商品相簿
+    var slideIndex = 1;
+    showSlides(slideIndex);
+
+    function plusSlides(n) {
+      showSlides(slideIndex += n);
+    }
+
+    function currentSlide(n) {
+      showSlides(slideIndex = n);
+    }
+
+    function showSlides(n) {
+      var i;
+      var slides = document.getElementsByClassName("dog02");
+      var dots = document.getElementsByClassName("demo");
+      if (n > slides.length) { slideIndex = 1 }
+      if (n < 1) { slideIndex = slides.length }
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+      }
+      for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active");
+      }
+      slides[slideIndex - 1].style.display = "block";
+      dots[slideIndex - 1].className += " active";
+      captionText.innerHTML = dots[slideIndex - 1].alt;
+    }
+  </script>
+  <script>
+    // 星星
+    $(function () {
+      // id後第四個字
+      $(".star_good").hover(function () {
+        var id = $(this).attr("id").substr(4);
+        for (var i = 1; i <= id; i++) {
+          $("#star" + i).attr("src", "images/star1.png");
+          $("#star" + i).width("30px");
+          $("#star" + i).height("30px");
+        }
+
+      }, function () {
+        for (var i = 1; i <= 5; i++) {
+          $("#star" + i).attr("src", "images/star0.png");
+          $("#star" + i).width("30px");
+          $("#star" + i).height("30px");
+        }
+        // 選到的星星註記winnie
+        for (var i = 1; i <= 5; i++) {
+          if ($("#star" + i).hasClass("winnie")) {
+            for (var j = 1; j <= i; j++) {
+              $("#star" + j).attr("src", "images/star1.png");
+              $("#star" + j).width("30px");
+              $("#star" + j).height("30px");
+            }
+            // 選到星星的後面不要亮
+            for (var k = i + 1; k <= 5; k++) {
+              $("#star" + k).attr("src", "images/star0.png");
+              $("#star" + k).width("30px");
+              $("#star" + k).height("30px");
+            }
+            break;
+          }
+        }
+      });
+
+
+      $(".star_click").click(function () {
+        var id = $(this).attr("id").substr(4);
+        // 刪除winnie註記
+        for (var i = 1; i <= 5; i++) {
+          $("#star" + i).removeClass("winnie");
+        }
+
+        $("#star" + id).addClass("winnie");
+        for (var i = 1; i <= id; i++) {
+          $("#star" + i).attr("src", "images/star1.png");
+          $("#star" + i).width("30px");
+          $("#star" + i).height("30px");
+        }
+
+      });
+
+
+    })
+  </script>
+  <div class="ww">
+    <img src="images/5.png" class="www">
+    <img src="images/6.png" class="www">
+    <img src="images/7.png" class="www">
+  </div>
+  <footer>heheshop © 2021<br>總瀏覽次數：</footer>
+</body>
+
+</html>
