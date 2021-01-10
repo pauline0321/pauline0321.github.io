@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cart</title>
+    <link rel="stylesheet" type="text/css" href="assets/cc.css">
+    <link rel="stylesheet" type="text/css" href="assets/cc_cart.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.js"
+        integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="meun">
+        <img class="hehe" src="images/hehe.png">
+        <div class="right">
+            <div class="top">
+                <input class="search-box" type="text">
+                <input type="submit" value="搜尋" class="search-btn">
+                <div class="enter"><a href="enter.html">
+                        <h2 class="enter01">登入/註冊<h2></h2>
+                    </a></div>
+                <a href="cart.html"><img class="cart" src="images/shoppingcart.png"></a>
+            </div>
+            <ul class="navigation">
+                <li><a href="hehe.html">首頁</a>
+                <li><a href="activity.html">活動</a>
+                    <ul>
+                        <li><a href="activity.html">聖誕節歡樂送</a></li>
+                        <li><a href="activity.html#2">免運倒數</a></li>
+                        <li><a href="activity.html#3">支持環保</a></li>
+                        <li><a href="activity.html#4">手作教室</a></li>
+                    </ul>
+                </li>
+                <li><a href="goods.html">商品</a>
+                    <ul>
+                        <li><a href="goods.html">服飾</a></li>
+                        <li><a href="goods.html#2">飾品</a></li>
+                    </ul>
+                </li>
+                <li><a href="member.html">會員專區</a></li>
+                <li><a href="#">關於我們</a>
+                    <ul>
+                        <li><a href="team.html">組員介紹</a></li>
+                        <li><a href="mailto:pauline687@gmail.com">聯絡我們</a></li>
+                    </ul>
+                </li>
+                <li><a href="help.html">幫助</a></li>
+            </ul>
+        </div>
+    </div>
+    <!-- 購物車 --------------------------------------->
+    <div class="cc">
+        <div class="ccc">
+            <table id="t01">
+                <tr>
+                    <th>商品</th>
+                    <th></th>
+                    <th>單價</th>
+                    <th>數量</th>
+                    <th>總計</th>
+                    <th></th>
+                </tr>
+                <!-- 商品一大包開始 -->
+                <tr id="no">
+                    <td><img src="images/goods/1-1.JPG" class="t_img"></td>
+                    <td>不收邊直筒褲</td>
+                    <td>$<span id="">650</span></td>
+                    <td>1</td>
+                    <td>$<span id="total">650</span></td>
+                    <td><input type="submit" class="t_but" value="刪除"></td>
+                </tr>
+                <!-- 商品一大包結束 -->
+            </table>
+        </div>
+        <form>
+            <div class="cc02">
+                <div>
+                    <table id="okgo">
+                        <tr>
+                            <th>收件人</th>
+                            <td><input type="text" class="okok" required></td>
+                        </tr>
+                        <tr>
+                            <th>收件人電話</th>
+                            <td><input type="mobile" pattern="\d{10}" class="okok" required></td>
+                        </tr>
+                        <tr>
+                            <th>收件人地址</th>
+                            <td><input type="text" class="okok" required></td>
+                        </tr>
+                        <tr>
+                            <th>付款方式</th>
+                            <td>貨到付款</td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="tip">
+                    <div class="tip_head">訂單摘要</div>
+                    <div class="count">
+                        <div class="lable">商品總價：</div>
+                        <div class="price">$<span id="">650</span></div>
+                    </div>
+                    <div class="post">
+                        <div class="lable">運費總計：</div>
+                        <div class="price">$80</div>
+                    </div>
+                    <hr>
+                    <div class="amount">
+                        <div class="lable">結帳總金額：</div>
+                        <div class="price">$<span id="">730</span></div>
+                    </div>
+                    <input type="submit" value="送出訂單" class="go_but">
+                </div>
+            </div>
+        </form>
+    </div>
+
+</body>
+
+</html>
